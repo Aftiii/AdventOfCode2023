@@ -23,4 +23,11 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Inputs\02.txt" />
+    <Content Include="Inputs\02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
